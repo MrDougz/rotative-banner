@@ -3,8 +3,14 @@ let time = 2000,
     images = document.querySelectorAll('#slider img')
     max = images.length;
 
+function nextImage(){
+    
+}
+
 function start(){
-    setInterval(() => {}, time)
+    setInterval(() => {
+        console.log("função rodando!")
+    }, time)
 }
 
 window.addEventListener("load", start)
